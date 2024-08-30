@@ -6,17 +6,17 @@ import { LedLightTooltip } from "../../../../extensions/shared-components/assets
 const { ccclass, property } = _decorator;
 
 const BetChoice = {
-    RED: "red",
-    WHITE: "white",
+    KARA: "kara",
+    KRUS: "krus",
 };
 
 @ccclass()
-export class SeDieThreeLedLightToolTip extends LedLightTooltip {
+export class KarakrusLedLightToolTip extends LedLightTooltip {
     @property(Label)
-    lblRed: Label = null;
+    lblKara: Label = null;
 
     @property(Label)
-    lblWhite: Label = null;
+    lblKrus: Label = null;
 
     private readonly dotsTotal = 3;
 
@@ -24,16 +24,16 @@ export class SeDieThreeLedLightToolTip extends LedLightTooltip {
         const { roundId, settlementResult, result } = ledLightInfo;
 
         this.roundId.string = `#${roundId}`;
-        const choiceWin = settlementResult[BetChoice.RED] ? BetChoice.RED : BetChoice.WHITE;
+        const choiceWin = settlementResult[BetChoice.KARA] ? BetChoice.KARA : BetChoice.KRUS;
         this.result.string = gc.Translator.gameTranslate(`glossary_${choiceWin}`).toUpperCase();
 
-        let countRed = 0;
+        let countKara = 0;
         Object.values(result).forEach((value) => {
             if (value) {
-                countRed++;
+                countKara++;
             }
         });
-        this.lblRed.string = `${countRed}`;
-        this.lblWhite.string = `${this.dotsTotal - countRed}`;
+        this.lblKara.string = `${countKara}`;
+        this.lblKrus.string = `${this.dotsTotal - countKara}`;
     }
 }

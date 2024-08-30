@@ -170,13 +170,11 @@ export const languages = {
         "win_loss": "Thắng Thua",
         "you_reach_max_win": "Bạn Đã Đạt Mức Tiền Thắng Tối Đa"
     },
-    "SeDie3": {
-        "game_icon_name": "XÓC ĐĨA 3 XU",
-        "game_name": "Xóc Đĩa 3 Xu",
-        "glossary_red": "Đỏ",
-        "glossary_white": "Trắng",
-        "red_win": "ĐỎ THẮNG",
-        "white_win": "TRẮNG THẮNG"
+    "KaraKrus": {
+        "game_icon_name": "KARA KRUS",
+        "game_name": "Kara Krus",
+        "kara_win": "KARA THẮNG",
+        "krus_win": "KRUS THẮNG"
     }
 };
 

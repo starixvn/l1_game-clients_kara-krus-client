@@ -571,12 +571,12 @@
     "__prefab": {
       "__id__": 27
     },
-    "sprRed": {
-      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@ea9ba",
+    "sprKara": {
+      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@b5cdb",
       "__expectedType__": "cc.SpriteFrame"
     },
-    "sprWhite": {
-      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@ead18",
+    "sprKrus": {
+      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@14a43",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_id": ""

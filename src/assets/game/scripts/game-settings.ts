@@ -5,8 +5,8 @@ import { sharedContainer } from "../../scripts/shared-container";
 
 export const settings = {
     id: 95,
-    name: "SeDie3",
-    namespaces: ["SeDie3"],
+    name: "KaraKrus",
+    namespaces: ["KaraKrus"],
     durations: {
         wholeRound: 39,
         lockingBet: 3,

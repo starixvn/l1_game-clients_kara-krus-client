@@ -170,14 +170,7 @@ export const languages = {
         "win_loss": "赢 输",
         "you_reach_max_win": "您达到了最大胜利"
     },
-    "SeDie3": {
-        "game_icon_name": "色碟 3X",
-        "game_name": "色碟 3X",
-        "glossary_red": "红",
-        "glossary_white": "白",
-        "red_win": "红赢",
-        "white_win": "白赢"
-    }
+    "KaraKrus": {}
 };
 
 if (!win.languages) {

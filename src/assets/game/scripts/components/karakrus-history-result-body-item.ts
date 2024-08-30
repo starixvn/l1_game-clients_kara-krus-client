@@ -5,18 +5,18 @@ import { BaseResultBodyItem } from "../../../../extensions/shared-components/ass
 const { ccclass, property } = _decorator;
 
 @ccclass()
-export class SeDieThreeResultBodyItem extends BaseResultBodyItem {
+export class KaraKrusResultBodyItem extends BaseResultBodyItem {
     @property(SpriteFrame)
-    sprRed: SpriteFrame = null;
+    sprKara: SpriteFrame = null;
 
     @property(SpriteFrame)
-    sprWhite: SpriteFrame = null;
+    sprKrus: SpriteFrame = null;
 
     setData(result: gc.BetHistory.DynamicObject<object>, settlementResult: gc.BetHistory.DynamicObject<boolean>) {
         const values = Object.values(result);
         values.sort((a, b) => Number(b) - Number(a));
         this.node.getComponentsInChildren(Sprite).forEach((component, i) => {
-            component.spriteFrame = values[i] ? this.sprRed : this.sprWhite;
+            component.spriteFrame = values[i] ? this.sprKara : this.sprKrus;
         });
     }
 }

@@ -32,10 +32,10 @@ export class Plate extends ObserverComponent {
     nodeRandomPos: Node = null;
 
     @property(SpriteFrame)
-    frameDotRed: SpriteFrame = null;
+    frameDotKara: SpriteFrame = null;
 
     @property(SpriteFrame)
-    frameDotWhite: SpriteFrame = null;
+    frameDotKrus: SpriteFrame = null;
 
     private audioShakeKey = "shake";
     private roundId = 0;
@@ -62,7 +62,7 @@ export class Plate extends ObserverComponent {
 
         Object.keys(result).forEach((key, index) => {
             this.spriteDots[index].node.position = randomOption.children[index].position;
-            this.spriteDots[index].spriteFrame = result[key] ? this.frameDotRed : this.frameDotWhite;
+            this.spriteDots[index].spriteFrame = result[key] ? this.frameDotKara : this.frameDotKrus;
         });
     }
 

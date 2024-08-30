@@ -170,13 +170,13 @@ export const languages = {
         "win_loss": "Win Loss",
         "you_reach_max_win": "You reached the max win"
     },
-    "SeDie3": {
-        "game_icon_name": "SE DIE 3X",
-        "game_name": "Se Die 3X",
-        "glossary_red": "Red",
-        "glossary_white": "White",
-        "red_win": "RED WINS",
-        "white_win": "WHITE WINS"
+    "KaraKrus": {
+        "game_icon_name": "KARA KRUS",
+        "game_name": "Kara Krus",
+        "glossary_kara": "KARA",
+        "glossary_krus": "KRUS",
+        "kara_win": "KARA WINS",
+        "krus_win": "KRUS WINS"
     }
 };
 

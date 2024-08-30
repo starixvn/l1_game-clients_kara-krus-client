@@ -5,27 +5,27 @@ import MD5Component, { MD5Type } from "../../../../extensions/shared-components/
 const { ccclass, property } = _decorator;
 
 export type ExtraInfos = {
-    red1: boolean;
-    red2: boolean;
-    red3: boolean;
-    red4: boolean;
+    head1: boolean;
+    head2: boolean;
+    head3: boolean;
 };
 
 @ccclass()
-export class SeDieThreeMD5 extends MD5Component {
-    readonly CHIP_RED = `<img src="chip_do" />`;
-    readonly CHIP_WHITE = `<img src="chip_trang" />`;
+export class KaraKrusMD5 extends MD5Component {
+    readonly DICE_KARA = `<img src="dice-kara" />`;
+    readonly DICE_KRUS = `<img src="dice-krus" />`;
 
     private tipForHash = false;
 
     generateMD5Result(data: MD5Type) {
         let result = "";
         if (!!data.extraInfos) {
-            const totalRed = Object.values(data.extraInfos).filter((value) => value === true).length;
-            const chipResult = this.generateChips(totalRed);
+            const totalHead = Object.values(data.extraInfos).filter((value) => value === true).length;
+            const chipResult = this.generateChips(totalHead);
             const suffix = data.rawValue.split("_");
             const suffixFormatLength = suffix[1].length > this.lengthOfMd5 ? suffix[1].slice(0, this.lengthOfMd5) + "..." : suffix[1];
             result = `{${chipResult}}_${suffixFormatLength}`;
+            this.tipString = `{${chipResult}}_${suffix[1]}`;
         }
         if (!!data.hashValue) {
             result = data.hashValue;
@@ -33,19 +33,22 @@ export class SeDieThreeMD5 extends MD5Component {
         this.lblMd5Value && (this.lblMd5Value.string = `${result}`);
     }
 
-    generateChips(totalRed: number) {
+    generateChips(totalHead: number) {
         const chips = {
-            0: `${this.CHIP_WHITE} ${this.CHIP_WHITE} ${this.CHIP_WHITE}`,
-            1: `${this.CHIP_RED} ${this.CHIP_WHITE} ${this.CHIP_WHITE}`,
-            2: `${this.CHIP_RED} ${this.CHIP_RED} ${this.CHIP_WHITE}`,
-            3: `${this.CHIP_RED} ${this.CHIP_RED} ${this.CHIP_RED}`,
+            0: `${this.DICE_KRUS} ${this.DICE_KRUS} ${this.DICE_KRUS}`,
+            1: `${this.DICE_KARA} ${this.DICE_KRUS} ${this.DICE_KRUS}`,
+            2: `${this.DICE_KARA} ${this.DICE_KARA} ${this.DICE_KRUS}`,
+            3: `${this.DICE_KARA} ${this.DICE_KARA} ${this.DICE_KARA}`,
         };
 
-        return chips.hasOwnProperty(totalRed) ? chips[totalRed] : "";
+        return chips.hasOwnProperty(totalHead) ? chips[totalHead] : "";
     }
 
     protected setDataTip(data: gc.GameServiceMessage.ResultHash) {
-        super.setDataTip(data);
+        if (!!data.hashValue) {
+            this.tipString = data.hashValue;
+        }
+
         this.tipForHash = !!data.hashValue;
     }
 

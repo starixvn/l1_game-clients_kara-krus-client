@@ -170,14 +170,7 @@ export const languages = {
         "win_loss": "Menang Kalah",
         "you_reach_max_win": "Anda mencapai Maksimal Menang"
     },
-    "SeDie3": {
-        "game_icon_name": "SE DIE 3X",
-        "game_name": "Se Die 3X",
-        "glossary_red": "Merah",
-        "glossary_white": "Putih",
-        "red_win": "MERAH MENANG",
-        "white_win": "PUTIH MENANG"
-    }
+    "KaraKrus": {}
 };
 
 if (!win.languages) {

@@ -170,14 +170,7 @@ export const languages = {
         "win_loss": "ชนะ แพ้",
         "you_reach_max_win": "คุณถึงยอดชนะสูงสุด"
     },
-    "SeDie3": {
-        "game_icon_name": "SE DIE 3X",
-        "game_name": "Se Die 3X",
-        "glossary_red": "แดง",
-        "glossary_white": "ขาว",
-        "red_win": "แดงชนะ",
-        "white_win": "ขาวชนะ"
-    }
+    "KaraKrus": {}
 };
 
 if (!win.languages) {

@@ -170,7 +170,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "825869e5-4edf-4e09-99d7-f5985de43b6b@ea9ba",
+      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@b5cdb",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -422,17 +422,17 @@
   },
   {
     "__type__": "LedLightItemModel",
-    "choiceNames": "red",
+    "choiceNames": "kara",
     "backgroundForChoice": {
-      "__uuid__": "825869e5-4edf-4e09-99d7-f5985de43b6b@ea9ba",
+      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@b5cdb",
       "__expectedType__": "cc.SpriteFrame"
     }
   },
   {
     "__type__": "LedLightItemModel",
-    "choiceNames": "white",
+    "choiceNames": "krus",
     "backgroundForChoice": {
-      "__uuid__": "825869e5-4edf-4e09-99d7-f5985de43b6b@ead18",
+      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@14a43",
       "__expectedType__": "cc.SpriteFrame"
     }
   },
