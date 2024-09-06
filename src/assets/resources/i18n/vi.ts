@@ -173,6 +173,8 @@ export const languages = {
     "KaraKrus": {
         "game_icon_name": "KARA KRUS",
         "game_name": "Kara Krus",
+        "glossary_kara": "KARA",
+        "glossary_krus": "KRUS",
         "kara_win": "KARA THẮNG",
         "krus_win": "KRUS THẮNG"
     }
