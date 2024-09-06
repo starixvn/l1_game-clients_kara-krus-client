@@ -15,7 +15,7 @@ import { containerOptions, settings } from "../game-settings";
 import { IResult, Plate } from "./plate";
 
 startGame(settings.name, containerOptions, siteConfigs, settings.namespaces);
-const { Rounds, Connection, HideGame, Settlements, FormatUtils, RoundHistories, GameBaccaratX } = gc;
+const { Rounds, RoundHistories } = gc;
 
 const { ccclass, property } = _decorator;
 const { observer, render, handle } = Observer;
@@ -41,7 +41,7 @@ export default class Game extends GameComponent {
     protected enableFixHandleFinish = true;
     private audioContainer: AudioContainer = null;
     private winningResult: WinningResult = null;
-    private soundWinChoice = ["red", "white"];
+    private soundWinChoice = ["kara", "krus"];
     private currentFinish: gc.GameServiceMessage.Finish = null;
 
     onLoad() {
@@ -62,7 +62,8 @@ export default class Game extends GameComponent {
             this.winningResult.setSettlementResult(settlementResult);
             this.winningResult.show();
             const winChoice = this.soundWinChoice.find((choice) => settlementResult[choice]);
-            this.playSound(`${winChoice}_wins_${gc.Translator.getLanguageId()}`);
+            console.log("show result", winChoice, gc.Translator.getLanguageId());
+            this.playSound(`${winChoice}_win_${gc.Translator.getLanguageId()}`);
         }
     }
 

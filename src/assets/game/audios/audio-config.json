@@ -4,64 +4,64 @@
         "path": "shake",
         "isLazyLoad": true
     },
-    "red_wins_zh_cn": {
+    "kara_win_zh_cn": {
         "bundle": "resources",
-        "path": "winning/red_wins_zh_cn",
+        "path": "winning/kara_win_zh_cn",
         "isLazyLoad": true
     },
-    "red_wins_en": {
+    "kara_win_zh_en": {
         "bundle": "resources",
-        "path": "winning/red_wins_en",
+        "path": "winning/kara_win_zh_en",
         "isLazyLoad": true
     },
-    "red_wins_id": {
+    "kara_win_id": {
         "bundle": "resources",
-        "path": "winning/red_wins_id",
+        "path": "winning/kara_win_id",
         "isLazyLoad": true
     },
-    "red_wins_th": {
+    "kara_win_th": {
         "bundle": "resources",
-        "path": "winning/red_wins_th",
+        "path": "winning/kara_win_th",
         "isLazyLoad": true
     },
-    "red_wins_zh_tw": {
+    "kara_win_zh_tw": {
         "bundle": "resources",
-        "path": "winning/red_wins_zh_tw",
+        "path": "winning/kara_win_zh_tw",
         "isLazyLoad": true
     },
-    "red_wins_vi": {
+    "kara_win_vi": {
         "bundle": "resources",
-        "path": "winning/red_wins_vi",
+        "path": "winning/kara_win_vi",
         "isLazyLoad": true
     },
-    "white_wins_zh_cn": {
+    "krus_win_zh_cn": {
         "bundle": "resources",
-        "path": "winning/white_wins_zh_cn",
+        "path": "winning/krus_win_zh_cn",
         "isLazyLoad": true
     },
-    "white_wins_en": {
+    "krus_win_en": {
         "bundle": "resources",
-        "path": "winning/white_wins_en",
+        "path": "winning/krus_win_en",
         "isLazyLoad": true
     },
-    "white_wins_id": {
+    "krus_win_id": {
         "bundle": "resources",
-        "path": "winning/white_wins_id",
+        "path": "winning/krus_win_id",
         "isLazyLoad": true
     },
-    "white_wins_th": {
+    "krus_win_th": {
         "bundle": "resources",
-        "path": "winning/white_wins_th",
+        "path": "winning/krus_win_th",
         "isLazyLoad": true
     },
-    "white_wins_zh_tw": {
+    "krus_win_zh_tw": {
         "bundle": "resources",
-        "path": "winning/white_wins_zh_tw",
+        "path": "winning/krus_win_zh_tw",
         "isLazyLoad": true
     },
-    "white_wins_vi": {
+    "krus_win_vi": {
         "bundle": "resources",
-        "path": "winning/white_wins_vi",
+        "path": "winning/krus_win_vi",
         "isLazyLoad": true
     }
 }
