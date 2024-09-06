@@ -170,7 +170,14 @@ export const languages = {
         "win_loss": "贏 輸",
         "you_reach_max_win": "您達到了最大勝利"
     },
-    "KaraKrus": {}
+    "KaraKrus": {
+        "game_icon_name": "KARA KRUS",
+        "game_name": "Kara Krus",
+        "glossary_kara": "KARA",
+        "glossary_krus": "KRUS",
+        "kara_win": "KARA 贏",
+        "krus_win": "KRUS 贏"
+    }
 };
 
 if (!win.languages) {

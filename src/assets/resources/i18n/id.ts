@@ -170,7 +170,14 @@ export const languages = {
         "win_loss": "Menang Kalah",
         "you_reach_max_win": "Anda mencapai Maksimal Menang"
     },
-    "KaraKrus": {}
+    "KaraKrus": {
+        "game_icon_name": "KARA KRUS",
+        "game_name": "Kara Krus",
+        "glossary_kara": "KARA",
+        "glossary_krus": "KRUS",
+        "kara_win": "KARA MENANG",
+        "krus_win": "KRUS MENANG"
+    }
 };
 
 if (!win.languages) {
