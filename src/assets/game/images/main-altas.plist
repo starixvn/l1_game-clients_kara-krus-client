@@ -363,7 +363,7 @@
             <key>size</key>
             <string>{512,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:5224b3f0ba1350330d44b32bbf56b63c:c192d47a6cbb9b94f7e3449591b467d0:c267e8d10c0bc09dc57664e81b0ef2af$</string>
+            <string>$TexturePacker:SmartUpdate:86e6a50b8f5288ca839aad5a732d7300:c1d67b810196280dc77cf8af458e8c63:c267e8d10c0bc09dc57664e81b0ef2af$</string>
             <key>textureFileName</key>
             <string>main-altas.png</string>
         </dict>
