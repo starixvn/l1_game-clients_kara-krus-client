@@ -9,9 +9,9 @@
         "path": "winning/kara_win_zh_cn",
         "isLazyLoad": true
     },
-    "kara_win_zh_en": {
+    "kara_win_en": {
         "bundle": "resources",
-        "path": "winning/kara_win_zh_en",
+        "path": "winning/kara_win_en",
         "isLazyLoad": true
     },
     "kara_win_id": {
