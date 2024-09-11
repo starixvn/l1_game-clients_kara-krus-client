@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "9L8UnowMRgA3iZc+IWQ1juk2RWI", "spine": "3.8.99", "x": -109, "y": -109, "width": 218, "height": 218 },
+"skeleton": { "hash": "XbBryPc2y6Sy31QaD9DVocG0hU8", "spine": "3.8.99", "x": -109, "y": -109, "width": 218, "height": 218 },
 "bones": [
 	{ "name": "icon-game" },
 	{ "name": "object", "parent": "icon-game" },
@@ -35,7 +35,7 @@
 	{ "name": "De Icon", "bone": "icon-game" },
 	{ "name": "mask", "bone": "mask", "attachment": "mask", "blend": "multiply" },
 	{ "name": "bg", "bone": "bg", "attachment": "bg" },
-	{ "name": "bg3", "bone": "bg", "attachment": "bg", "blend": "multiply" },
+	{ "name": "bg3", "bone": "bg", "attachment": "bg" },
 	{ "name": "gold", "bone": "gold", "attachment": "gold2" },
 	{ "name": "gold5", "bone": "gold3", "attachment": "gold2" },
 	{ "name": "gold3", "bone": "gold2", "attachment": "gold2" },
