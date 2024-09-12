@@ -37,5 +37,6 @@
 }
 
 .splash_bg_game {
-    background-size: 100% 100% !important;
+    top: 7vh;
+    background-size: 1206px 596px !important;
 }
