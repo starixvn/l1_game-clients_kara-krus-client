@@ -8,6 +8,6 @@ window.envConfig = {
     enableMsgpackParserOnNotification: false,
     enableMsgpackParserAllGames: false,
     SGConnectSubDomain: "l1-connectsite2",
-    storagePrefixKey: "bac81",
+    storagePrefixKey: "karakrus",
     backgroundNoTranslate: true,
 };

@@ -9,6 +9,6 @@ window.envConfig = {
     enableMsgpackParserOnNotification: true,
     subDirectory: "uat",
     SGConnectSubDomain: "l1uatconnectsite",
-    storagePrefixKey: "bac81",
+    storagePrefixKey: "karakrus",
     backgroundNoTranslate: true,
 };
