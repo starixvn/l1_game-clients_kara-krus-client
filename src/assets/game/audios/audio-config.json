@@ -1,105 +1,67 @@
 {
-    "player-en": {
+    "shake": {
         "bundle": "resources",
-        "path": "winning/player-en",
+        "path": "shake",
         "isLazyLoad": true
     },
-    "banker-en": {
+    "kara_win_zh_cn": {
         "bundle": "resources",
-        "path": "winning/banker-en",
+        "path": "winning/kara_win_zh_cn",
         "isLazyLoad": true
     },
-    "tie-en": {
+    "kara_win_en": {
         "bundle": "resources",
-        "path": "winning/tie-en",
+        "path": "winning/kara_win_en",
         "isLazyLoad": true
     },
-    "player-vi": {
+    "kara_win_id": {
         "bundle": "resources",
-        "path": "winning/player-vi",
+        "path": "winning/kara_win_id",
         "isLazyLoad": true
     },
-    "banker-vi": {
+    "kara_win_th": {
         "bundle": "resources",
-        "path": "winning/banker-vi",
+        "path": "winning/kara_win_th",
         "isLazyLoad": true
     },
-    "tie-vi": {
+    "kara_win_zh_tw": {
         "bundle": "resources",
-        "path": "winning/tie-vi",
+        "path": "winning/kara_win_zh_tw",
         "isLazyLoad": true
     },
-    "player-id": {
+    "kara_win_vi": {
         "bundle": "resources",
-        "path": "winning/player-id",
+        "path": "winning/kara_win_vi",
         "isLazyLoad": true
     },
-    "banker-id": {
+    "krus_win_zh_cn": {
         "bundle": "resources",
-        "path": "winning/banker-id",
+        "path": "winning/krus_win_zh_cn",
         "isLazyLoad": true
     },
-    "tie-id": {
+    "krus_win_en": {
         "bundle": "resources",
-        "path": "winning/tie-id",
+        "path": "winning/krus_win_en",
         "isLazyLoad": true
     },
-    "player-th": {
+    "krus_win_id": {
         "bundle": "resources",
-        "path": "winning/player-th",
+        "path": "winning/krus_win_id",
         "isLazyLoad": true
     },
-    "banker-th": {
+    "krus_win_th": {
         "bundle": "resources",
-        "path": "winning/banker-th",
+        "path": "winning/krus_win_th",
         "isLazyLoad": true
     },
-    "tie-th": {
+    "krus_win_zh_tw": {
         "bundle": "resources",
-        "path": "winning/tie-th",
+        "path": "winning/krus_win_zh_tw",
         "isLazyLoad": true
     },
-    "player-zh_cn": {
+    "krus_win_vi": {
         "bundle": "resources",
-        "path": "winning/player-zh_cn",
-        "isLazyLoad": true
-    },
-    "banker-zh_cn": {
-        "bundle": "resources",
-        "path": "winning/banker-zh_cn",
-        "isLazyLoad": true
-    },
-    "tie-zh_cn": {
-        "bundle": "resources",
-        "path": "winning/tie-zh_cn",
-        "isLazyLoad": true
-    },
-    "player-zh_tw": {
-        "bundle": "resources",
-        "path": "winning/player-zh_tw",
-        "isLazyLoad": true
-    },
-    "banker-zh_tw": {
-        "bundle": "resources",
-        "path": "winning/banker-zh_tw",
-        "isLazyLoad": true
-    },
-    "tie-zh_tw": {
-        "bundle": "resources",
-        "path": "winning/tie-zh_tw",
-        "isLazyLoad": true
-    },
-    "lightning": {
-        "bundle": "resources",
-        "isLazyLoad": true
-    },
-    "multiplier": {
-        "bundle": "resources",
-        "isLazyLoad": true
-    },
-    "opening-card": {
-        "bundle": "shared-bundle",
-        "path": "opening-card",
+        "path": "winning/krus_win_vi",
         "isLazyLoad": true
     }
 }
