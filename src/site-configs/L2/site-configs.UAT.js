@@ -11,4 +11,5 @@ window.envConfig = {
     SGConnectSubDomain: "l2-connect-uat",
     storagePrefixKey: "karakrus",
     backgroundNoTranslate: true,
+    clientSubDomain: "l2uatclient",
 };

@@ -12,4 +12,5 @@ window.envConfig = {
     defaultLanguage: "en",
     storagePrefixKey: "karakrus",
     backgroundNoTranslate: true,
+    clientSubDomain: "l2uatclient",
 };
