@@ -10,4 +10,5 @@ window.envConfig = {
     SGConnectSubDomain: "connect",
     storagePrefixKey: "karakrus",
     backgroundNoTranslate: true,
+    clientSubDomain: "client",
 };
