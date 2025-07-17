@@ -24,7 +24,6 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         proxyPath: "karakrus",
         route: "karakrus",
     },
-    mainObserverNamespace: "KaraKrus",
     tolgeeUrl: "",
     storagePrefixKey: "KaraKrus",
     backgroundNoTranslate: true,
