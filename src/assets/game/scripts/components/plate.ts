@@ -37,7 +37,7 @@ export class Plate extends ObserverComponent {
     @property(SpriteFrame)
     frameDotKrus: SpriteFrame = null;
 
-    private audioShakeKey = "shake";
+    private readonly audioShakeKey = "shake";
     private roundId = 0;
 
     async openPlate(animated: boolean) {

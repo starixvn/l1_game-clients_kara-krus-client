@@ -42,7 +42,7 @@ export default class Game extends GameComponent {
     protected enableFixHandleFinish = true;
     private audioContainer: AudioContainer = null;
     private winningResult: WinningResult = null;
-    private soundWinChoice = ["kara", "krus"];
+    private readonly soundWinChoice = ["kara", "krus"];
     private currentFinish: gc.GameServiceMessage.Finish = null;
 
     onLoad() {
