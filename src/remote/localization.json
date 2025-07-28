@@ -5,7 +5,9 @@
         "th": "KARA KRUS",
         "vi": "KARA KRUS",
         "zh_cn": "KARA KRUS",
-        "zh_tw": "KARA KRUS"
+        "zh_tw": "KARA KRUS",
+        "ja": "カラ クルス",
+        "es": "KARA KRUS"
     },
     "gameNames": {
         "en": "Kara Krus",
@@ -13,6 +15,8 @@
         "th": "Kara Krus",
         "vi": "Kara Krus",
         "zh_cn": "Kara Krus",
-        "zh_tw": "Kara Krus"
+        "zh_tw": "Kara Krus",
+        "ja": "カラ・クラス",
+        "es": "Kara Krus"
     }
 }

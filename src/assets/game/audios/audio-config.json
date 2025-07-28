@@ -34,6 +34,16 @@
         "path": "winning/kara_win_vi",
         "isLazyLoad": true
     },
+    "kara_win_ja": {
+        "bundle": "resources",
+        "path": "winning/kara_win_ja",
+        "isLazyLoad": true
+    },
+    "kara_win_es": {
+        "bundle": "resources",
+        "path": "winning/kara_win_es",
+        "isLazyLoad": true
+    },
     "krus_win_zh_cn": {
         "bundle": "resources",
         "path": "winning/krus_win_zh_cn",
@@ -62,6 +72,16 @@
     "krus_win_vi": {
         "bundle": "resources",
         "path": "winning/krus_win_vi",
+        "isLazyLoad": true
+    },
+    "krus_win_ja": {
+        "bundle": "resources",
+        "path": "winning/krus_win_ja",
+        "isLazyLoad": true
+    },
+    "krus_win_es": {
+        "bundle": "resources",
+        "path": "winning/krus_win_es",
         "isLazyLoad": true
     }
 }
