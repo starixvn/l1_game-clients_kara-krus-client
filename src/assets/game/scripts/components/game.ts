@@ -19,7 +19,7 @@ startGame(settings.name, containerOptions, siteConfigs, settings.namespaces);
 const { Rounds, RoundHistories } = gc;
 
 const { ccclass, property } = _decorator;
-const { observer, render, handle } = Observer;
+const { observer, render } = Observer;
 
 @ccclass
 @observer(settings.name)
@@ -111,15 +111,6 @@ export default class Game extends GameComponent {
                     this.showResult(result, false, settlementResult);
                 }
             }
-        }
-    }
-
-    @render(Rounds.RoundTimeStore, (store) => store.roundState)
-    fadeVolumeBgMusic(roundState: string) {
-        if (roundState === Rounds.ROUND_STATE.LOCKING_BET) {
-            this.audioContainer.updateVolumeMusicSource(0.3, 3);
-        } else if (roundState === Rounds.ROUND_STATE.SHOW_RESULT) {
-            this.audioContainer.updateVolumeMusicSource(1, 3);
         }
     }
 
